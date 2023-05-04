@@ -6,7 +6,7 @@ import se.kth.iv1350.pos.model.Sale;
 
 /**
  *
- * @author Haron Osman
+ * The class representing the inventory system
  */
 public class InventorySystem {
     private List<ItemDTO> items = new ArrayList<>();

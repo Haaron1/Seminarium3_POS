@@ -13,11 +13,14 @@ import se.kth.iv1350.pos.DTO.ItemDTO;
  */
 public class Sale {
     private List<SoldItem> purchasedItems;
-    //private SoldItemDTO soldItemInfo;
     private double totalPrice;
     private double totalPriceWithoutTax;
     private Receipt receipt;
     
+    /**
+     * Creates a new instance, creates a list that will 
+     * contain all purchased item
+     */
     public Sale(){
         purchasedItems = new ArrayList<>();
     }
