@@ -4,14 +4,13 @@
  */
 package se.kth.iv1350.pos.integration;
 import java.text.DecimalFormat;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 import se.kth.iv1350.pos.model.Receipt;
 import se.kth.iv1350.pos.model.SoldItem;
 
 /**
  *
- * @author Haron Osman
+ * The class representing the printer
  */
 public class Printer {
     private static final DecimalFormat df = new DecimalFormat("0.00");
