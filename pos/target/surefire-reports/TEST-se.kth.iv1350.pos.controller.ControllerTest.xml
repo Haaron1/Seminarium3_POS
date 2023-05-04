@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="se.kth.iv1350.pos.controller.ControllerTest" time="0.03" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="se.kth.iv1350.pos.controller.ControllerTest" time="0.033" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="19.0.1+10-21"/>
@@ -62,7 +62,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="se.kth.iv1350.pos.controller.ControllerTest" name="se.kth.iv1350.pos.controller.ControllerTest.testSearchMatchingItem2" time="0.027"/>
-  <testcase classname="se.kth.iv1350.pos.controller.ControllerTest" name="se.kth.iv1350.pos.controller.ControllerTest.testSearchMatchingItem" time="0.001"/>
-  <testcase classname="se.kth.iv1350.pos.controller.ControllerTest" name="se.kth.iv1350.pos.controller.ControllerTest.testSearchMatchingItem3" time="0.002"/>
+  <testcase classname="se.kth.iv1350.pos.controller.ControllerTest" name="se.kth.iv1350.pos.controller.ControllerTest.testSearchMatchingItem" time="0.03"/>
+  <testcase classname="se.kth.iv1350.pos.controller.ControllerTest" name="se.kth.iv1350.pos.controller.ControllerTest.testSearchMatchingItem2" time="0"/>
+  <testcase classname="se.kth.iv1350.pos.controller.ControllerTest" name="se.kth.iv1350.pos.controller.ControllerTest.testSearchMatchingItem3" time="0.003"/>
 </testsuite>

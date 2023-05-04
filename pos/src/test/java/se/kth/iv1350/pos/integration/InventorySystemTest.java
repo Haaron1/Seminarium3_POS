@@ -44,7 +44,7 @@ public class InventorySystemTest {
         InventorySystem instance = new InventorySystem();
         String expResult = "Apple";
         ItemDTO result = instance.findItem(itemId);
-        assertEquals(expResult, result.getName());
+        assertEquals(expResult, result.getName(),"Item was not found");
         //fail("The test case is a prototype.");
     }
     
@@ -54,7 +54,7 @@ public class InventorySystemTest {
         InventorySystem instance = new InventorySystem();
         ItemDTO expResult = null;
         ItemDTO result = instance.findItem(itemId);
-        assertEquals(expResult, result);
+        assertEquals(expResult, result, "Item was found");
     }
     
 }

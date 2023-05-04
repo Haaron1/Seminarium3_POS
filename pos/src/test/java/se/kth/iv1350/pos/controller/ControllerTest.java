@@ -49,7 +49,7 @@ public class ControllerTest {
         instance.startSale();
    
         SoldItem result = instance.searchMatchingItem(itemId);
-        assertNotNull(result);
+        assertNotNull(result,"Item was not returned");
         //fail("The test case is a prototype.");
     }
     
@@ -60,7 +60,7 @@ public class ControllerTest {
         instance.startSale();
         
         SoldItem result = instance.searchMatchingItem(itemId);
-        assertNull(result);
+        assertNull(result,"Item was returned");
         //fail("The test case is a prototype.");
     }
     
@@ -70,11 +70,11 @@ public class ControllerTest {
         instance.startSale();
         
         SoldItem result = instance.searchMatchingItem(itemId);
-        assertTrue(result.getQuantity() == 1);
+        assertTrue(result.getQuantity() == 1,"Item was not added to sale");
         
         SoldItem anotherResult = instance.searchMatchingItem(itemId);
         assertEquals(result, anotherResult);
-        assertTrue(result.getQuantity()== 2);
+        assertTrue(result.getQuantity()== 2,"Quantity of item was not increased");
     }
     
     
