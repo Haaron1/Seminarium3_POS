@@ -85,7 +85,7 @@ public class SaleTest {
         temp = instance.itemToCart(tempItem);
         double expResult = 22 + 11;
         double result = instance.calculateTotalSum();
-        assertEquals(expResult, result, 0);
+        assertEquals(expResult, result, 0,"The calculation is not correct");
     }
     /*
     @Test
